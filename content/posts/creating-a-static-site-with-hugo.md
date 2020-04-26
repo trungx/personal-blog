@@ -460,10 +460,12 @@ $RECYCLE.BIN/
 .DS_Store
 ```
 
+I then used created a remote repository on GitHub and pushed the changes in my local repository to it. See [Adding an existing project to GitHub using the command line](https://help.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line)
 
-Next, I logged into Netlify and clicked New Site before authorising Netlify to connect to my GitHub account. I chose the branch
+Next, I logged into Netlify and clicked New Site from Git button before authorising Netlify to connect to my GitHub account. I chose the repository 'personal-blog' and branch master. Netlify already included the hugo build command and public directory for publishing.
 
-My site's files are stored on Github and any time commits are made, Netlify will rebuild the site.
+Now my site's files are stored on Github and any time commits are made, Netlify will rebuild the site.
+
 [Back to Top](#top)
 
 ## Useful Links
