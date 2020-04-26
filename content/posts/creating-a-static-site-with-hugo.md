@@ -1,7 +1,7 @@
 ---
 title: "Creating a Static Site with Hugo"
 date: 2020-04-25T12:41:31+01:00
-draft: false
+draft: true
 ---
 
 Last post I explained how I settled on Hugo as the Static Site Generator for my blog as part of my move to the "JAMstack". This post is how I got things up and running.
