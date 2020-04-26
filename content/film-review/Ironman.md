@@ -12,3 +12,4 @@ genre: ["Action Adventure", "Science Fiction"]
 release: # e.g. 23rd January 1982
 ---
 
+This is a post

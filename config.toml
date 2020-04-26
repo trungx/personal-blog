@@ -1,5 +1,5 @@
 title = "Stray Dog Strut"
-baseURL = "https://example.com"
+baseURL = "/"
 languageCode = "en-us"
 theme = "ananke"
 
@@ -19,11 +19,18 @@ enableRobotsTXT = true
   weight = 1
 
 [[menu.main]]
-  identifier = "review"
+  identifier = "ghibli-review"
   name = "Project Ghibli"
   title = "Project Ghibli"
-  url = "/review/"
+  url = "/ghibli-review/"
   weight = 2
+
+  [[menu.main]]
+    identifier = "film-review"
+    name = "Film Reviews"
+    title = "Film Reviews"
+    url = "/film-review/"
+    weight = 2
 
 [sitemap]
   changefreq = "monthly"
