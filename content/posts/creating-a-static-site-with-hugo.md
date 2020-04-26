@@ -1,7 +1,7 @@
 ---
 title: "Creating a Static Site with Hugo"
 date: 2020-04-25T12:41:31+01:00
-draft: true
+draft: false
 ---
 
 Last post I explained how I settled on Hugo as the Static Site Generator for my blog as part of my move to the "JAMstack". This post is how I got things up and running.
@@ -460,10 +460,14 @@ $RECYCLE.BIN/
 .DS_Store
 ```
 
+I then used created a remote repository on GitHub and pushed the changes in my local repository to it. See [Adding an existing project to GitHub using the command line](https://help.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line)
 
-Next, I logged into Netlify and clicked New Site before authorising Netlify to connect to my GitHub account. I chose the branch
+Next, I logged into Netlify and clicked New Site from Git button before authorising Netlify to connect to my GitHub account. I chose the repository 'personal-blog' and branch master. Netlify already included the hugo build command and public directory for publishing. See [Hosting on Netlify](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/) for more information.
 
-My site's files are stored on Github and any time commits are made, Netlify will rebuild the site.
+Now my site's files are stored on Github and any time commits are made - such as when I add a new blog post - Netlify will rebuild the site.
+
+(Note that posts that are draft: true won't show up in production)
+
 [Back to Top](#top)
 
 ## Useful Links
