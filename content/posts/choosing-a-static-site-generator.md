@@ -1,7 +1,7 @@
 ---
 title: "Choosing a static site generator"
 date: 2020-04-24T22:45:49+01:00
-draft: true
+draft: false
 categories:
 - development
 tags:

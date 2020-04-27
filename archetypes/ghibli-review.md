@@ -4,9 +4,16 @@ date: {{ .Date }}
 draft: true
 type: review
 layout: single
+featured_image: # e.g. images/featured.png
+
+# taxonomies
+categories:
+- 'reviews'
+tags:
+- anime
+- 'studio ghibli'
 
 # Project Ghibli metadata
-featured_image: # e.g. images/featured.png
 release: # e.g. 23rd January 1982
 directors: # e.g. ["Isao Takahata"]
 producers: # e.g. ["Kôichi Murata"]

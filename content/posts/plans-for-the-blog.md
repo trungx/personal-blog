@@ -1,7 +1,7 @@
 ---
 title: "Plans for the blog"
 date: 2020-04-24T16:10:37+01:00
-draft: true
+draft: false
 ---
 
 It's surprising to realise that I haven't blogged for three years. So much has happened in that time, personally and professionally, that my online presence here has taken a backseat. Although i'm busier than ever, the current state of self-isolation means that - when I do have free time - i'm thinking about all the projects i'd like to do.

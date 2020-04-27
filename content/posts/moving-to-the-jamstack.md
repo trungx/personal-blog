@@ -1,7 +1,7 @@
 ---
 title: "Moving to the Jamstack"
 date: 2020-04-24T17:23:23+01:00
-draft: true
+draft: false
 ---
 
 I mentioned last post that i'm taking this renewed interest in blogging as an opportunity to migrate to a different platform and learn some new skills. I've lost no love for Wordpress but, in aiming to have a clearer focus on personal projects, and with my growing interest in learning modern web technologies, I feel this blog is a good place to start.
