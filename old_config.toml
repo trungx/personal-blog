@@ -1,0 +1,53 @@
+title = "Stray Dog Strut"
+baseURL = "/"
+languageCode = "en-us"
+theme = "pickles"
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+#SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[menu]
+[[menu.main]]
+  identifier = "ghibli-review"
+  name = "Project Ghibli"
+  title = "Project Ghibli"
+  url = "/ghibli-review/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "film-review"
+  name = "Film Reviews"
+  title = "Film Reviews"
+  url = "/film-review/"
+  weight = 2
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  description = "Barking up the wrong tree."
+  facebook = ""
+  twitter = "https://twitter.com/straydogstrut7"
+  instagram = "https://www.instagram.com/straydogstrut7"
+  youtube = ""
+  github = ""
+  gitlab = ""
+  linkedin = ""
+  mastodon = ""
+  slack = ""
+  stackoverflow = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  # featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+  recent_posts_number = 4
+  body_classes = "f4"
+  show_reading_time = true
+  mainSections = ["posts", "ghibli-review", "film-review"]
+  custom_css = ["css/custom.css"]

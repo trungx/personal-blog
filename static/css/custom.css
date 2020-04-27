@@ -1,2 +1,6 @@
 /* custom styles */
 
+body, .c-article__summary, p {
+  line-height: 2.0;
+  font-size: 1.8rem;
+}

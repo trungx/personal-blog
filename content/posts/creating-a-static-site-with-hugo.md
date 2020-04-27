@@ -88,7 +88,8 @@ languageCode = "en-us"
 theme = "ananke"
 ```
 
-> ## Just a heads up
+> ### Just a heads up
+>
 > It's worth pointing out that if you follow the next set of Hugo quickstart instructions to create your first post and start a local web server to view your site, it won't look as expected. For one thing the header image is missing.
 >
 > Although the guide doesn't mention it, it's necessary to follow some of the instructions from the [Ananke Theme page](https://github.com/budparr/gohugo-theme-ananke) to configure the theme. You need to set things like the path where the header image is found, for example.
@@ -363,6 +364,10 @@ Since Ananke uses this approach, I needed to [override $mainSections](https://go
  mainSections = ["posts", "ghibli-review"]
  ```
 
+ > ### A word on List Pages
+ >
+ > Something that tripped me up was receiving a 404 error when viewing list pages when there were no posts available. I expected to see at least a regular page with no main content. Thanks to the [Hugo forum](https://discourse.gohugo.io/t/section-list-pages-display-404-page/25048/3), it turns out that while a Section is defined from a collection of content, if there is no content (i.e. it's in draft), there is no section.
+ 
 [Back to Top](#top)
 
 ## Creating the Navigation Menu

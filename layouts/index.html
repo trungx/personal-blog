@@ -1,0 +1,10 @@
+{{ partial "header.html" . }}
+{{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
+{{ range $index, $page := (.Paginate (where (where .Site.RegularPages "Section" "in" $mainSections) ".Params.hidden" "!=" "true" )).Pages }}
+  {{if ne $index 0 }}
+    {{ end }}
+  {{ .Render "li" }}
+{{ end }}
+
+{{ partial "pagination.html" .Paginator }} {{ partial "siteinfo.html" . }}
+{{ partial "footer.html" . }}
