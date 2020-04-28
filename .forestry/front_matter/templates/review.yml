@@ -1,0 +1,21 @@
+---
+label: Review
+hide_body: false
+fields:
+- name: featured_image
+  type: file
+  config:
+    maxSize: 64
+  label: Featured Image
+- name: post_title
+  type: text
+  config:
+    required: false
+  label: Post Title
+- name: type
+  type: text
+  config:
+    required: false
+  label: Type
+pages:
+- content/posts/test.md
