@@ -12,5 +12,10 @@ fields:
   config:
     required: false
   label: Post Title
+- name: type
+  type: text
+  config:
+    required: false
+  label: Type
 pages:
 - content/posts/test.md
