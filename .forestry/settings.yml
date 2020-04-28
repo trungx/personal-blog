@@ -24,7 +24,7 @@ sections:
   label: Film Reviews
   create: all
   match: "**/*"
-upload_dir: https://res.cloudinary.com/straydogstrut/image/upload
+upload_dir: ''
 public_path: https://res.cloudinary.com/straydogstrut/image/upload
 front_matter_path: ''
 use_front_matter_path: true
