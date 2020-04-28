@@ -24,10 +24,10 @@ sections:
   label: Film Reviews
   create: all
   match: "**/*"
-upload_dir: ''
-public_path: ''
+upload_dir: https://res.cloudinary.com/straydogstrut/image/upload
+public_path: https://res.cloudinary.com/straydogstrut/image/upload
 front_matter_path: ''
-use_front_matter_path: 
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_env:
