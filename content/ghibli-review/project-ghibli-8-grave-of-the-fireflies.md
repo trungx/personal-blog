@@ -3,7 +3,7 @@ title: 'Project Ghibli #8: Grave of the Fireflies'
 date: Tue, 27 Sep 2016 21:33:12 +0000
 draft: false
 type: review
-featured_image:
+featured_image: "/v1588111829/gotf-fireflies_zg6mhl.png"
 
 # taxonomies
 tags: ['conflict', 'disease', 'firebombing', 'malnutrition', 'Project Ghibli', 'rationing', 'studio ghibli', 'takahata', 'war']
