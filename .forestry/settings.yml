@@ -16,12 +16,12 @@ sections:
   match: "**/*"
 - type: directory
   path: content/ghibli-review
-  label: Ghibli review
+  label: Ghibli Reviews
   create: all
   match: "**/*"
 - type: directory
   path: content/film-review
-  label: Film review
+  label: Film Reviews
   create: all
   match: "**/*"
 upload_dir: static/uploads
