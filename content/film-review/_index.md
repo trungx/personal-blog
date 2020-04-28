@@ -1,4 +1,4 @@
 ---
 title: "Film Reviews"
+description: "Posts about films i’ve enjoyed"
 ---
-Posts about books, films, tv and games i’ve enjoyed

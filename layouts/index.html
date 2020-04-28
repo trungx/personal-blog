@@ -1,4 +1,6 @@
+<!-- template for the homepage -->
 {{ partial "header.html" . }}
+<h1>Recent Posts</h1>
 {{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
 {{ range $index, $page := (.Paginate (where (where .Site.RegularPages "Section" "in" $mainSections) ".Params.hidden" "!=" "true" )).Pages }}
   {{if ne $index 0 }}

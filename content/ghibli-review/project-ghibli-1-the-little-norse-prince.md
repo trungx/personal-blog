@@ -2,13 +2,12 @@
 title: 'Project Ghibli #1:The Little Norse Prince'
 date: 2016-07-17T22:01:42+00:00
 draft: false
-#type: review
-#layout: single
+type: review
 featured_image: # e.g. images/featured.png
 
 # taxonomies
-categories: ['reviews']
-tags: ['anime', 'studio ghibli', 'takahata']
+categories: ['anime']
+tags: [studio ghibli', 'takahata']
 
 # Project Ghibli metadata
 release: '21st July 1968'

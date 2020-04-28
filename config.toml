@@ -42,10 +42,15 @@ googleAnalytics = "Your Google Analytics tracking id"
     url = "/about"
     weight = 2
 
-    [[menu.main]]
-        name = "Project Ghibli"
-        url = "/ghibli-review"
-        weight = 3
+[[menu.main]]
+    name = "Project Ghibli"
+    url = "/ghibli-review"
+    weight = 3
+
+[[menu.main]]
+    name = "Film Reviews"
+    url = "/film-review"
+    weight = 4
 
 #[[menu.main]]
 #    identifier = "theme"

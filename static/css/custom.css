@@ -1,6 +1,25 @@
 /* custom styles */
 
+:root {
+--color-theme-highlight: #337ab7;
+--color-theme-primary-glare: #afe4fd;
+--color-theme-primary: #6fdcbf;
+}
+
 body, .c-article__summary, p {
   line-height: 2.0;
   font-size: 1.8rem;
 }
+
+h1 {
+    padding-left: .5rem;
+    padding-right: 1rem;
+    color: var(--color-theme-highlight);
+    letter-spacing: .1rem;
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%,var(--color-theme-primary-glare) 50%);
+    display: inline;
+  }
+
+  .intro__meta {
+      color: var(--color-theme-primary);
+  }

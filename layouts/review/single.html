@@ -1,5 +1,4 @@
-<!-- Template for a single page like About -->
-
+<!-- template for a single review page -->
 {{ partial "header.html" . }}
 {{ $baseurl := .Site.BaseURL | sanitizeurl }}
 <article class="p-article">
@@ -15,6 +14,28 @@
     <img src="{{ . }}" alt="thumbnail" class="p-article__thumbnail">
   {{ end }}
   <section id="js-article" class="p-article__body">
+    <ul>
+    {{ with .Params }}
+        {{ with .Release }}
+          <li>Original Release: {{ . }}</li>
+        {{ end }}
+        {{ with .Directors }}
+          <li>Director(s): {{ delimit . ", "}}</li>
+        {{ end }}
+        {{ with .Genre }}
+          <li>Genre(s): {{ delimit . ", " }}</li>
+        {{ end }}
+        {{ with .Producers }}
+          <li>Producer(s): {{ delimit . ", "}}</li>
+        {{ end }}
+        {{ with .Screenwriters }}
+          <li>Screenwriter(s): {{ delimit . ", "}}</li>
+        {{ end }}
+        {{ with .Alternative_Titles }}
+          <li>Alternative Title(s): {{ delimit . ", "}}</li>
+        {{ end }}
+    {{ end }}
+    </ul>
     {{ .Content }}
   </section>
   <footer>
