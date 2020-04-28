@@ -12,3 +12,5 @@ fields:
   config:
     required: false
   label: Post Title
+pages:
+- content/posts/test.md
