@@ -9,7 +9,7 @@ tags:
 - "static site"
 - SSG
 - JAMstack
-
+featured_image: "/v1588111829/gotf-fireflies_zg6mhl.png"
 ---
 
 ## What is a Static Site Generator?
