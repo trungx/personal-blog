@@ -2,7 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 Title = "Stray Dog Strut"
 theme="pickles"
-cloudinary_url="https://res.cloudinary.com/straydogstrut/image/upload/"
+cloudinary_url="https://res.cloudinary.com/straydogstrut/image/upload"
 # Copyright notice. This is displayer in the footer.
 copyright = "&copy; Copyright notice"
 
