@@ -27,5 +27,3 @@ fields:
   config:
     required: false
   label: Type
-pages:
-- content/posts/test.md
