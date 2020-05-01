@@ -9,11 +9,8 @@
       <a href="{{ $baseurl }}/tags/{{ . | urlize }}" class="c-tag">{{ . }}</a>
       {{ end }}
     </div>
+    <img src="{{ .Site.Params.cloudinary_url }}/{{ .Params.featured_image }}" />
   </header>
-  <img src="{{ .Site.Params.cloudinary_url }}/{{ .Params.featured_image }}" />
-  {{ with .Params.thumbnail }}
-    <img src="{{ . }}" alt="thumbnail" class="p-article__thumbnail">
-  {{ end }}
   <section id="js-article" class="p-article__body">
     <ul>
     {{ with .Params }}
