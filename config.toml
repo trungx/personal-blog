@@ -46,7 +46,7 @@ googleAnalytics = "Your Google Analytics tracking id"
 
 [[menu.main]]
     name = "Project Ghibli"
-    url = "/ghibli-review"
+    url = "/categories/project-ghibli"
     weight = 3
 
 [[menu.main]]

@@ -7,7 +7,7 @@ layout: single
 featured_image: # e.g. images/featured.png
 
 # taxonomies
-categories: ['anime']
+categories: ['project ghibli']
 tags: [ 'anime', 'studio ghibli', 'miyazaki', 'takahata']
 ---
 

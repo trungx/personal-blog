@@ -3,7 +3,8 @@ title = "{{ replace .Name "-" " " | title }}"
 date = {{ .Date }}
 featured_image = # sample
 draft = true
-type = review
+type = posts
+category = ['project ghibli']
 
 # review metadata
 directors = # e.g. ["Isao Takahata"]
