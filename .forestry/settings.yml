@@ -15,6 +15,7 @@ sections:
   create: all
   match: "**/*"
   templates:
+  - review
   - blog-post
 - type: directory
   path: content/ghibli-review
