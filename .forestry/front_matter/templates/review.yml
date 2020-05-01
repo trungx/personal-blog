@@ -1,6 +1,7 @@
 ---
-label: Review
+label: Review Post
 hide_body: false
+display_field: title
 fields:
 - name: featured_image
   type: file
