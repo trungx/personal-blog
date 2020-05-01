@@ -11,7 +11,7 @@ copyright = "&copy; Copyright notice"
 googleAnalytics = "Your Google Analytics tracking id"
 
 [params]
-  cloudinary_base_url="https://res.cloudinary.com/straydogstrut/image/upload"
+  cloudinary_url="https://res.cloudinary.com/straydogstrut/image/upload"
   mainSections = ["posts", "ghibli-review", "film-review"]
   custom_css = ["/css/custom.css"]
   paginate = 10
