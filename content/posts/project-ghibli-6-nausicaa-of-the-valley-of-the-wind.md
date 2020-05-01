@@ -1,21 +1,21 @@
----
-title: 'Project Ghibli #6: Nausicaä of the Valley of the Wind'
-date: 2016-09-11T12:15:08+0000
-draft: false
-type: review
-featured_image:
++++
+title = 'Project Ghibli #6: Nausicaä of the Valley of the Wind'
+date = 2016-09-11T12:15:08+00:00
+draft = false
+type = "review"
+featured_image = "" #
 
 # taxonomies
-categories: ["anime"]
-tags: ['airplane', 'anti-war', 'environment', 'flight', 'miyazaki', 'nature', 'nausicaa', 'pacifism', 'Project Ghibli', 'studio ghibli']
+categories = ["project ghibli"]
+tags = ['airplane', 'anti-war', 'environment', 'flight', 'miyazaki', 'nature', 'nausicaa', 'pacifism', 'Project Ghibli', 'studio ghibli']
 
 # Project Ghibli metadata
-release: "11th March 1984"
-directors: ["Hayao Miyazaki"]
-producers: ["Isao Takahata"]
-screenwriters: ["Hayao Miyazaki"]
-alternative_titles:
----
+release = "11th March 1984"
+directors = ["Hayao Miyazaki"]
+producers = ["Isao Takahata"]
+screenwriters = ["Hayao Miyazaki"]
+alternative_titles = ""
++++
 
 We've had a busy couple of weeks, but time to pick up where we left off with the next instalment in our series. We're entering more recognisable territory here with Nausicaä being affectionately considered the beginning of Studio Ghibli, despite being released before its official founding a year later.
 

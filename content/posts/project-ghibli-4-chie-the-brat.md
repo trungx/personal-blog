@@ -1,21 +1,21 @@
----
-title: 'Project Ghibli #4: Chie The Brat'
-date: Sat, 06 Aug 2016 23:15:00 +0000
-draft: false
-type: review
-featured_image:
++++
+title = 'Project Ghibli #4: Chie The Brat'
+date = 2016-08-06T23:15:00+00:00
+draft = false
+type = "review"
+featured_image = ""#
 
 # taxonomies
-categories: ['anime']
-tags: ['alcoholism', 'catfight', 'debt', 'gambling', 'kushi', 'okonomiyaki', 'osaka', 'Project Ghibli', 'takahata', 'violence']
+categories = ['anime']
+tags = ['alcoholism', 'catfight', 'debt', 'gambling', 'kushi', 'okonomiyaki', 'osaka', 'Project Ghibli', 'takahata', 'violence']
 
 # Project Ghibli metadata
-release: "11th April 1981"
-directors: ["Isao Takahata"]
-producers: ["Hidenori Taga","Tetsuo Katayama"]
-screenwriters: ["Isao Takahata","Noboru Shiroyama"]
-alternative_titles: ["Downtown Story","Jarinko Chie","Kié La Petite Peste"]
----
+release = "11th April 1981"
+directors = ["Isao Takahata"]
+producers = ["Hidenori Taga","Tetsuo Katayama"]
+screenwriters = ["Isao Takahata","Noboru Shiroyama"]
+alternative_titles = ["Downtown Story","Jarinko Chie","Kié La Petite Peste"]
++++
 
 Our fourth film by Director Isao Takahata is a bit of a wildcard. Originally released in Japan in 1981 and later in France in 2005, it's a rather niche film that hasn't quite entered public consciousness elsewhere. Inspired by the popular Japanese manga series by Etsumi Haruki, there's been no official English release and neither the Japanese nor French releases include English subtitles. In the interests of completeness, I imported the DVD from Japan and relied on fansubs for the English translation. Note to our American cousins: The DVD is region 2 so will **\*not\*** play on non-European DVD players unless they are region-free. But read on and i'll save you the trouble!
 

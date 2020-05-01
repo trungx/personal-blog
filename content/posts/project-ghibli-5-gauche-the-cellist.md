@@ -1,21 +1,21 @@
----
-title: "Project Ghibli #5: Gauche the Cellist"
-date: 2016-08-21T14:48:09+00:00
-draft: false
-type: review
-featured_image: # e.g. images/featured.png
++++
+title = "Project Ghibli #5: Gauche the Cellist"
+date = 2016-08-21T14:48:09+00:00
+draft = false
+type = "review"
+featured_image = "" # e.g. images/featured.png
 
 # taxonomies
-categories: ['anime']
-tags: ['beethoven', 'cat', 'cuckoo', 'environment', 'mouse', 'music', 'nature', 'orchestra', 'Project Ghibli', 'racoon-dog', 'studio ghibli', 'symphony', 'takahata']
+categories = ['project ghibli']
+tags = ['beethoven', 'cat', 'cuckoo', 'environment', 'mouse', 'music', 'nature', 'orchestra', 'Project Ghibli', 'racoon-dog', 'studio ghibli', 'symphony', 'takahata']
 
 # Project Ghibli metadata
-release: "23rd January 1982"
-directors: ["Isao Takahata"]
-producers: ["Kôichi Murata"]
-screenwriters: ["Isao Takahata"]
-alternative_titles: ["Gōshu the Cellist"]
----
+release = "23rd January 1982"
+directors = ["Isao Takahata"]
+producers = ["Kôichi Murata"]
+screenwriters = ["Isao Takahata"]
+alternative_titles = ["Gōshu the Cellist"]
++++
 
 We're back after a brief hiatus with a change of pace yet again from Director Isao Takahata. Where before we had the bawdy humour of _Chie the Brat_, and the childlike innocence of _Panda! Go, Panda!_, Gauche the Cellist is a serious yet whimsical tale with a small, intimate cast. Originally a children's tale by Miyazawa Kenji (1896 - 1933), the story has seen several adaptations but Takahata's is the most beloved.
 

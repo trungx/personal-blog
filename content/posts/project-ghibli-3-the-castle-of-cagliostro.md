@@ -1,21 +1,21 @@
----
-title: 'Project Ghibli #3: The Castle of Cagliostro'
-date: 2016-07-31T21:05:07+0000
-draft: false
-type: review
-featured_image: # e.g. images/featured.png
++++
+title = 'Project Ghibli #3: The Castle of Cagliostro'
+date = 2016-07-31T21:05:07+00:00
+draft = false
+type = "review"
+featured_image = "" # e.g. images/featured.png
 
 # taxonomies
-categories: ['anime']
-tags: ['cagliostro', 'goat money', 'lupin', 'miyazaki', 'Project Ghibli', 'studio ghibli', 'takahata', 'thief']
+categories = ['project ghibli']
+tags = ['cagliostro', 'goat money', 'lupin', 'miyazaki', 'Project Ghibli', 'studio ghibli', 'takahata', 'thief']
 
 # Project Ghibli metadata
-release: "15th December 1979"
-directors: ["Hayao Miyazaki"]
-producers: ["Tetsuo Katayama"]
-screenwriters: ["Haruya Yamasaki", "Hayao Miyazaki"]
-alternative_titles: ["Lupin the Third: Castle of Cagliostro"]
----
+release = "15th December 1979"
+directors = ["Hayao Miyazaki"]
+producers = ["Tetsuo Katayama"]
+screenwriters = ["Haruya Yamasaki", "Hayao Miyazaki"]
+alternative_titles = ["Lupin the Third: Castle of Cagliostro"]
++++
 This next film on our list is quite a departure from those we've already seen. Where _The Little Norse Prince_ gave us a square-jawed hero of the people, and the _Panda! Go, Panda!_ films showed us tales of child-like innocence, _The Castle of Cagliostro_ gives us a story of greed, possession and violence, and its anti-hero, the devious and wise-cracking Lupin III, master thief.
 
 Lupin III was originally produced as a manga created in 1967 by artist Kazuhiko Katō, aka Monkey Punch, himself inspired by a series of stories and books created by Maurice Leblanc from 1905, and their protagonist, the gentleman thief Arsène Lupin.

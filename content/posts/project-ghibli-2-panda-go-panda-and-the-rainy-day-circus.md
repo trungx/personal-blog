@@ -1,22 +1,22 @@
----
-title: 'Project Ghibli #2: Panda! Go, Panda! and The Rainy-Day Circus'
-date: 2016-07-24T08:00:00+0000
-draft: false
-type: review
-featured_image:
++++
+title = 'Project Ghibli #2: Panda! Go, Panda! and The Rainy-Day Circus'
+date = 2016-07-24T08:00:00+00:00
+draft = false
+type = "review"
+featured_image = "" #
 
 # taxonomies
-categories: ['anime']
-tags: ['circus', 'miyazaki', 'panda', 'Project Ghibli', 'studio ghibli', 'takahata', 'zoo']
+categories = ['project ghibli']
+tags = ['circus', 'miyazaki', 'panda', 'Project Ghibli', 'studio ghibli', 'takahata', 'zoo']
 
 
 # Project Ghibli metadata
-release: '17th December 1972 (Panda! Go, Panda!) and 17th March 1973 (The ainy-Day Circus)'
-directors: ['Isao Takahata']
-producers: ['Shunzo Kato']
-screenwriters: ['Hayao Miyazaki']
-alternative_titles: ['Panda Kopanda (Literally Panda, Baby Panda)','Panda Kopanda and The Rainy-Day Circus']
----
+release = '17th December 1972 (Panda! Go, Panda!) and 17th March 1973 (The ainy-Day Circus)'
+directors = ['Isao Takahata']
+producers = ['Shunzo Kato']
+screenwriters = ['Hayao Miyazaki']
+alternative_titles = ['Panda Kopanda (Literally Panda, Baby Panda)','Panda Kopanda and The Rainy-Day Circus']
++++
 After _Toei Animation_, both Isao Takahata and Hayao Miyazaki joined _A Production_ in 1971 where they were reunited with their former mentor Yasuo Ōtsuka, his having left Toei after completion in 1969 of [The Wonderful World of Puss N' Boots](https://en.wikipedia.org/wiki/The_Wonderful_World_of_Puss_%27n_Boots).
 
 Takahata and Miyazaki initially worked on preparations for an anime adaptation of Swedish author Astrid Lindgren's character [Pippi Longstocking](http://www.goodreads.com/book/show/19302.Pippi_Longstocking), however the project was shelved following an unsuccessful attempt to secure rights to the material. The pair then shared directorial credits on the [Lupin III television series](https://en.wikipedia.org/wiki/List_of_Lupin_The_Third_Part_I_episodes), but their next feature film was **Panda! Go, Panda!** in late 1972, followed by its sequel **Rainy-Day Circus** in early 1973.

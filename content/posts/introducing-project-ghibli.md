@@ -1,15 +1,14 @@
----
-title: 'Introducing: Project Ghibli'
-date: 2016-07-14T21:38:32+00:00
-draft: false
-type: review
-layout: single
-featured_image: # e.g. images/featured.png
++++
+title = "Introducing: Project Ghibli"
+date = 2016-07-14T21:38:32+00:00
+draft = false
+type = "review"
+featured_image = ""
 
 # taxonomies
-categories: ['project ghibli']
-tags: [ 'anime', 'studio ghibli', 'miyazaki', 'takahata']
----
+categories = ['project ghibli']
+tags = [ 'anime', 'studio ghibli', 'miyazaki', 'takahata']
++++
 
 It will come as no surprise to those of you who know me to confess that I **adore** animation. From the 80s cartoons that I watched growing up - Teenage Mutant Ninja Turtles, Thundercats, He-Man and the Masters of the Universe, Count Duckula - and many beloved Disney feature films - The Little Mermaid, Beauty and the Beast, The Jungle Book, The Great Mouse Detective - to the modern 3D offerings from Pixar and Dreamworks - Toy Story, Shrek, Wall-E, The Incredibles, How To Train Your Dragon - and on and on.
 

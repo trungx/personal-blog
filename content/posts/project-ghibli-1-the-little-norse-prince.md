@@ -1,21 +1,21 @@
----
-title: 'Project Ghibli #1:The Little Norse Prince'
-date: 2016-07-17T22:01:42+00:00
-draft: false
-type: review
-featured_image: # e.g. images/featured.png
++++
+title = 'Project Ghibli #1:The Little Norse Prince'
+date = 2016-07-17T22:01:42+00:00
+draft = false
+type = "review"
+featured_image = "" # e.g. images/featured.png
 
 # taxonomies
-categories: ['anime']
-tags: [studio ghibli', 'takahata']
+categories = ['Project Ghibli']
+tags = ['studio ghibli', 'takahata']
 
 # Project Ghibli metadata
-release: '21st July 1968'
-directors: ['Isao Takahata']
-producers: ['Hiroshi Okawa']
-screenwriters: ['Kazuo Fukazawa']
-alternative_titles: ['The Great Adventure of Horus', 'Prince of the Sun', 'Little Norse Prince Valiant']
----
+release = '21st July 1968'
+directors = ['Isao Takahata']
+producers = ['Hiroshi Okawa']
+screenwriters = ['Kazuo Fukazawa']
+alternative_titles = ['The Great Adventure of Horus', 'Prince of the Sun', 'Little Norse Prince Valiant']
++++
 
 We start off Project Ghibli with a look, not at the first Studio Ghibli release, but at the directorial debut of one of the studio's founders, Isao Takahata. Hayao Miyazaki, the other founder of Studio Ghibli, also worked on the film assisting with key animation and scene design at Takahata's request.
 

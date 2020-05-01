@@ -1,20 +1,21 @@
----
-title: 'Project Ghibli #8: Grave of the Fireflies'
-date: Tue, 27 Sep 2016 21:33:12 +0000
-draft: false
-type: review
-featured_image: "/v1588111829/gotf-fireflies_zg6mhl.png"
++++
+title = 'Project Ghibli #8: Grave of the Fireflies'
+date = 2016-09-27T21:33:12+00:00
+draft = false
+type = "review"
+featured_image = "/v1588111829/gotf-fireflies_zg6mhl.png"
 
 # taxonomies
-tags: ['conflict', 'disease', 'firebombing', 'malnutrition', 'Project Ghibli', 'rationing', 'studio ghibli', 'takahata', 'war']
+categories = ['project ghibli']
+tags = ['conflict', 'disease', 'firebombing', 'malnutrition', 'Project Ghibli', 'rationing', 'studio ghibli', 'takahata', 'war']
 
 # Project Ghibli metadata
-release: "16th April 1988"
-directors: ["Isao Takahata"]
-producers: ["Toru Hara"]
-screenwriters: ["Isao Takahata"]
-alternative_titles:
----
+release = "16th April 1988"
+directors = ["Isao Takahata"]
+producers = ["Toru Hara"]
+screenwriters = ["Isao Takahata"]
+alternative_titles = ""
++++
 
 Apologies, we're late again with this entry. In truth though, neither of us could stomach watching this one over the weekend. Released as a double feature with the next film in our series, the two couldn't be more different. _Grave of the Fireflies_ is a wonderful film - another moving tale by Takahata - but a truly heart-wrenching one.
 

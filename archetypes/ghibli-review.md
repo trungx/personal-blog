@@ -1,12 +1,12 @@
 +++
 title = "{{ replace .Name "-" " " | title }}"
 date = {{ .Date }}
-featured_image = # e.g. images/featured.png
+featured_image = "" # e.g. images/featured.png
 draft = true
-type = review
+type = "review"
 
 # taxonomies
-categories = ["reviews"]
+categories = ["project ghibli"]
 tags = ["anime", "studio ghibli"]
 
 # Project Ghibli metadata
