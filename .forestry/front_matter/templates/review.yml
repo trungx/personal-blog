@@ -30,6 +30,11 @@ fields:
   label: Type
   hidden: false
   default: review
+- name: directors
+  type: text
+  config:
+    required: false
+  label: Director(s)
 pages:
 - content/film-review/captain-marvel.md
 - content/film-review/moana.md
