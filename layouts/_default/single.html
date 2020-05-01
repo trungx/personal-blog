@@ -1,5 +1,6 @@
 {{ partial "header.html" . }}
 {{ $baseurl := .Site.BaseURL | sanitizeurl }}
+{{ $cloudinaryurl := .Site.Params.cloudinary_url }}
 <article class="p-article">
   <header>
     <h1>{{ .Title }}</h1>
@@ -14,7 +15,9 @@
       <a href="{{ $baseurl }}/tags/{{ . | urlize }}" class="c-tag">{{ . }}</a>
       {{ end }}
     </div>
-    <img src="{{ .Site.Params.cloudinary_url }}/{{ .Params.featured_image }}" />
+    {{ with .Params.featured_image }}
+    <img src="{{ $cloudinaryurl }}/{{ . }}" />
+    {{ end }}
   </header>
   <section id="js-article" class="p-article__body">
     {{ .Content }}
