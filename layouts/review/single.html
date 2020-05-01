@@ -10,6 +10,9 @@
       {{ end }}
     </div>
   </header>
+  {{ with .Params.featured_image }}
+  <img src="{{ $.Site.Params.cloudinary_base_url }}{{ . }}" />
+  {{ end }}
   {{ with .Params.thumbnail }}
     <img src="{{ . }}" alt="thumbnail" class="p-article__thumbnail">
   {{ end }}
