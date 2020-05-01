@@ -17,6 +17,7 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+  default: now
 - name: featured_image
   type: file
   config:
@@ -27,5 +28,7 @@ fields:
   config:
     required: false
   label: Type
+  hidden: false
+  default: review
 pages:
 - content/film-review/moana.md
