@@ -30,7 +30,7 @@ sections:
   match: "**/*"
   templates:
   - review
-upload_dir: ''
+upload_dir: personal-blog
 public_path: https://res.cloudinary.com/straydogstrut/image/upload
 front_matter_path: ''
 use_front_matter_path: true
