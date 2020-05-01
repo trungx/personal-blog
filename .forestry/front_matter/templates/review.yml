@@ -27,3 +27,5 @@ fields:
   config:
     required: false
   label: Type
+pages:
+- content/film-review/moana.md
