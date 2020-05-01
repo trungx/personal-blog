@@ -12,7 +12,7 @@ googleAnalytics = "Your Google Analytics tracking id"
 
 [params]
   cloudinary_url="https://res.cloudinary.com/straydogstrut/image/upload"
-  mainSections = ["posts", "ghibli-review", "film-review"]
+  mainSections = ["posts"]
   custom_css = ["/css/custom.css"]
   paginate = 10
   # Social accounts. Link to these accounts are displayed in the header and
@@ -48,28 +48,6 @@ googleAnalytics = "Your Google Analytics tracking id"
     name = "Project Ghibli"
     url = "/categories/project-ghibli"
     weight = 3
-
-[[menu.main]]
-    name = "Film Reviews"
-    url = "/film-review"
-    weight = 4
-
-#[[menu.main]]
-#    identifier = "theme"
-#    name = "/theme"
-#    weight = 3
-
-#[[menu.main]]
-#    parent = "theme"
-#    name = "creating-a-new-theme"
-#    url = "/posts/creating-a-new-theme"
-#    weight = 1
-
-#[[menu.main]]
-#    parent = "theme"
-#    name = "migrate-from-jekyll"
-#    url = "/posts/migrate-from-jekyll"
-#    weight = 2
 
 [[menu.main]]
     name = "Tags"
