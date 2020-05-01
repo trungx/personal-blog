@@ -35,6 +35,12 @@ fields:
   config:
     required: false
   label: Director(s)
+- name: categories
+  type: text
+  config:
+    required: false
+  label: Category
+  default: '["project ghibli"]'
 pages:
 - content/film-review/captain-marvel.md
 - content/film-review/moana.md
