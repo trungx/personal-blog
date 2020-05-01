@@ -14,5 +14,6 @@ fields:
     maxSize: 64
   label: Featured Image
 pages:
+- content/posts/hello-i-am-a-post.md
 - content/posts/hello-there.md
 - content/posts/once-more.md
