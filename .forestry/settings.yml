@@ -17,20 +17,6 @@ sections:
   templates:
   - review
   - blog-post
-- type: directory
-  path: content/ghibli-review
-  label: Ghibli Reviews
-  create: all
-  match: "**/*"
-  templates:
-  - review
-- type: directory
-  path: content/film-review
-  label: Film Reviews
-  create: all
-  match: "**/*"
-  templates:
-  - review
 upload_dir: personal-blog
 public_path: https://res.cloudinary.com/straydogstrut/image/upload
 front_matter_path: ''
