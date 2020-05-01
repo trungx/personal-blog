@@ -4,23 +4,23 @@
 <article class="p-article">
   <header>
     <h1>{{ .Title }}</h1>
-    <div>
-      <div class="c-time">
-        Posted on
-        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
-          {{ .Date.Format "Jan 2, 2006" }}
-        </time>
-      </div>
-      {{ range .Params.tags }}
-      <a href="{{ $baseurl }}/tags/{{ . | urlize }}" class="c-tag">{{ . }}</a>
-      {{ end }}
+    <div class="c-time">
+      Posted on
+      <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+        {{ .Date.Format "Jan 2, 2006" }}
+      </time>
     </div>
     {{ with .Params.featured_image }}
-    <img src="{{ $cloudinaryurl }}/{{ . }}" />
+    <img src="{{ $cloudinaryurl }}/w_720,h_400,c_fill{{ . }}" />
     {{ end }}
   </header>
   <section id="js-article" class="p-article__body">
     {{ .Content }}
+  <div>
+    {{ range .Params.tags }}
+    <a href="{{ $baseurl }}/tags/{{ . | urlize }}" class="c-tag">{{ . }}</a>
+    {{ end }}
+  </div>
   </section>
   <footer>
     {{ with ($.Param "disqus") }}
