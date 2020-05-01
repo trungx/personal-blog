@@ -3,11 +3,6 @@ label: Review Post
 hide_body: false
 display_field: title
 fields:
-- name: featured_image
-  type: file
-  config:
-    maxSize: 64
-  label: Featured Image
 - name: title
   type: text
   config:
@@ -22,6 +17,11 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+- name: featured_image
+  type: file
+  config:
+    maxSize: 64
+  label: Featured Image
 - name: type
   type: text
   config:
