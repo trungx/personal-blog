@@ -1,6 +1,6 @@
 ---
 title: This is a post
-date: 2017-03-02T17:00:00.000+00:00
+date: 2020-05-01T16:00:00+00:00
 featured_image: "/v1587934677/personal-blog/sample.jpg"
 
 ---
