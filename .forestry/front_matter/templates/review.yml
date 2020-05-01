@@ -31,4 +31,5 @@ fields:
   hidden: false
   default: review
 pages:
+- content/film-review/captain-marvel.md
 - content/film-review/moana.md
