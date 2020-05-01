@@ -15,4 +15,5 @@ fields:
   label: Featured Image
 pages:
 - content/posts/hello-there.md
+- content/posts/once-more.md
 - content/posts/this-is-another-post.md
