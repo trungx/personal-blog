@@ -45,10 +45,10 @@ fields:
   description: ''
   config:
     required: false
-    date_format: dd/mm/yyyy
+    date_format: DD/MM/YYYY
     time_format: 
     display_utc: false
-    export_format: dd/mm/yyyy
+    export_format: DD/MM/YYYY
 - name: directors
   type: tag_list
   default: []
