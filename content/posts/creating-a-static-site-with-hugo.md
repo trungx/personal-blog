@@ -1,8 +1,8 @@
----
-title: "Creating a Static Site with Hugo"
-date: 2020-04-25T12:41:31+01:00
-draft: false
----
++++
+title = "Creating a Static Site with Hugo"
+date = 2020-04-25T12:41:31+01:00
+draft = false
++++
 
 Last post I explained how I settled on Hugo as the Static Site Generator for my blog as part of my move to the "JAMstack". This post is how I got things up and running.
 
@@ -367,7 +367,7 @@ Since Ananke uses this approach, I needed to [override $mainSections](https://go
  > ### A word on List Pages
  >
  > Something that tripped me up was receiving a 404 error when viewing list pages when there were no posts available. I expected to see at least a regular page with no main content. Thanks to the [Hugo forum](https://discourse.gohugo.io/t/section-list-pages-display-404-page/25048/3), it turns out that while a Section is defined from a collection of content, if there is no content (i.e. it's in draft), there is no section.
- 
+
 [Back to Top](#top)
 
 ## Creating the Navigation Menu
