@@ -28,19 +28,44 @@ fields:
   config:
     required: false
   label: Type
-  hidden: false
+  hidden: true
   default: review
-- name: directors
-  type: text
-  config:
-    required: false
-  label: Director(s)
 - name: categories
+  type: tag_list
+  default: []
+  label: Category
+  hidden: true
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- name: release
+  type: datetime
+  label: Release
+  description: ''
+  config:
+    required: false
+    date_format: dd/mm/yyyy
+    time_format: 
+    display_utc: false
+    export_format: dd/mm/yyyy
+- name: directors
+  type: tag_list
+  default: []
+  label: Director(s)
+- name: producers
+  type: tag_list
+  default: []
+  label: Producer(s)
+- name: screenwriters
+  type: tag_list
+  default: []
+  label: Screenwriter(s)
+- name: alternative_titles
   type: text
   config:
     required: false
-  label: Category
-  default: '["project ghibli"]'
+  label: Alternative Title(s)
 pages:
 - content/film-review/captain-marvel.md
 - content/film-review/moana.md
