@@ -1,6 +1,6 @@
 +++
 alternative_titles = ""
-categories = []
+categories = ["Project Ghibli"]
 date = 2020-05-01T21:02:28Z
 directors = ["Hayao Miyazaki"]
 featured_image = "/v1588111829/personal-blog/gotf-fireflies.png"
