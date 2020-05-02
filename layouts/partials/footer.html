@@ -1,29 +1,19 @@
   </main>
   <footer class="l-footer">
-    {{ partial "link.html" . }}
-
     <p class="p-copyright">
+      {{ $siteLastChange := .Site.LastChange.Format "2006" }}
       {{ with .Site.Copyright | safeHTML }}
         {{ . }}
-      {{ else }}
+        {{ $siteLastChange }}
         {{ if ($.Param "author") }}
-          {{ if ($.Param "authorwebsite") }}
-            <a href="{{ $.Param "authorwebsite" }}">{{ $.Param "author" }}</a>
-          {{ else }}
             {{ $.Param "author" }}
-          {{ end }}
         {{ end }}
-        &nbsp;&bull;&nbsp;
-        {{ .Site.LastChange.Format "2006" }}
-
-        {{ if .Site.Title }}
-          &nbsp;&bull;&nbsp;
-          <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>
+      {{ else }}
+        {{ if ($.Param "authorwebsite") }}
+          <a href="{{ $.Param "authorwebsite" }}">{{ $.Param "authorwebsite" }}</a>
         {{ end }}
       {{ end }}
     </p>
   </footer>
-
-  {{- partial "footer_custom.html" . }}
 </body>
 </html>

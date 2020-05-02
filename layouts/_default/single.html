@@ -10,6 +10,9 @@
         {{ .Date.Format "Jan 2, 2006" }}
       </time>
     </div>
+    {{ if $.Param "show_reading_time" }}
+      <span class="c-time"> {{ .ReadingTime }} min read | {{ .WordCount }} words</span>
+    {{ end }}
     {{ with .Params.featured_image }}
     <img src="{{ $cloudinaryurl }}/w_720,h_400,c_fill{{ . }}" />
     {{ end }}
@@ -53,7 +56,6 @@
       </div>
     </nav>
     {{ partial "related.html" . }}
-    {{ partial "siteinfo.html" . }}
   </footer>
 </article>
 {{ partial "footer.html" . }}

@@ -5,12 +5,13 @@ theme="pickles"
 
 
 # Copyright notice. This is displayer in the footer.
-copyright = "&copy; Copyright notice"
+copyright = "&copy; Copyright "
 
 # Google Analytics API key.
 googleAnalytics = "Your Google Analytics tracking id"
 
 [params]
+  show_reading_time = true
   cloudinary_url="https://res.cloudinary.com/straydogstrut/image/upload"
   mainSections = ["posts"]
   custom_css = ["/css/custom.css"]
@@ -22,8 +23,8 @@ googleAnalytics = "Your Google Analytics tracking id"
 
   # Disqus shortname
   #disqus = ""
-  #author = "Your Name"
-  #authorwebsite = "example.com"
+  author = "Daniel Mclaughlan"
+  authorwebsite = "straydogstrut.co.uk"
   #avatar = "/path/to/avatar"
   #contact = "Your contact link (ex. mailto:foo@example.com)"
   #bio = "Your short bio"
