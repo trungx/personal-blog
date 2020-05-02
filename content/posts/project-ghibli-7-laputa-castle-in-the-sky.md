@@ -1,21 +1,21 @@
-+++
-title = 'Project Ghibli #7: Laputa: Castle in the Sky'
-date = 2016-09-18T22:00:26+00:00
-draft = false
-type = "review"
-featured_image = "" #
+---
+title: 'Project Ghibli #7: Laputa: Castle in the Sky'
+date: 2016-09-18T22:00:26+00:00
+draft: false
+type: "review"
+featured_image: "" #
 
 # taxonomies
-categories = ['project ghibli']
-tags = ['adventure', 'castle', 'magic', 'mining', 'miyazaki', 'Project Ghibli', 'robots', 'studio ghibli', 'wales']
+categories: ['project ghibli']
+tags: ['adventure', 'castle', 'magic', 'mining', 'miyazaki', 'Project Ghibli', 'robots', 'studio ghibli', 'wales']
 
 # Project Ghibli metadata
-release = "02nd August 1986"
-directors = ["Hayao Miyazaki"]
-producers = ["Isao Takahata"]
-screenwriters = ["Hayao Miyazaki"]
-alternative_titles = ""
-+++
+release: "02nd August 1986"
+directors: ["Hayao Miyazaki"]
+producers: ["Isao Takahata"]
+screenwriters: ["Hayao Miyazaki"]
+alternative_titles: ""
+---
 
 The success of [Nausicaä of the Valley of the Wind](http://straydogstrut.co.uk/2016/09/11/project-ghibli-6-nausicaa-of-the-valley-of-the-wind/) afforded Director Hayao Miyazaki and Producer Toshio Suzuki, with some additional financial backing, to strike out on their own with the formation of Studio Ghibli in June 1985.
 
