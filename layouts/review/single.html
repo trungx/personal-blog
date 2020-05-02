@@ -17,26 +17,27 @@
   </header>
   <section id="js-article" class="p-article__body">
     <ul>
-   {{ with .Params }}
-        {{ with .Release }}
+      Test
+
+        {{ with .Params.Release }}
           <li>Original Release: {{ . }}</li>
         {{ end }}
-        {{ with .Directors }}
+        {{ with .Params.Directors }}
           <li>Director(s): {{ delimit . ", "}}</li>
         {{ end }}
-        {{ with .Genre }}
+        {{ with .Params.Genre }}
           <li>Genre(s): {{ delimit . ", " }}</li>
         {{ end }}
-        {{ with .Producers }}
+        {{ with .Params.Producers }}
           <li>Producer(s): {{ delimit . ", "}}</li>
         {{ end }}
-        {{ with .Screenwriters }}
+        {{ with .Params.Screenwriters }}
           <li>Screenwriter(s): {{ delimit . ", "}}</li>
         {{ end }}
-        {{ with .Alternative_Titles }}
+        {{ with .Params.Alternative_Titles }}
           <li>Alternative Title(s): {{ delimit . ", "}}</li>
         {{ end }}
-    {{ end }}
+
     </ul>
     {{ .Content }}
     <div>

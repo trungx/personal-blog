@@ -16,7 +16,6 @@ producers: ["Isao Takahata"]
 screenwriters: ["Hayao Miyazaki"]
 alternative_titles: ""
 ---
-
 The success of [Nausicaä of the Valley of the Wind](http://straydogstrut.co.uk/2016/09/11/project-ghibli-6-nausicaa-of-the-valley-of-the-wind/) afforded Director Hayao Miyazaki and Producer Toshio Suzuki, with some additional financial backing, to strike out on their own with the formation of Studio Ghibli in June 1985.
 
 Suzuki was Editor of _Animage_ magazine, which had serialised Nausicaä, and was involved in the production of the film. They invited Isao Takahata to join them and together they set out to make the films they wanted to make - personal, ambitious films - without the constraints of previous studios. They would also employ their animators full time, rather than as ad-hoc freelancers as was the norm in Japan.
