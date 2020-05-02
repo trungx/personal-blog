@@ -20,6 +20,8 @@ h1 {
     display: inline;
 }
 
-  .intro__meta {
-      color: var(--color-theme-primary);
-  }
+.intro__meta {
+    background-color: var(--color-theme-primary-glare);
+    border-radius: 10px;
+    padding: 0.5em;
+}

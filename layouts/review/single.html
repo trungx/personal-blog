@@ -16,9 +16,8 @@
     {{ end }}
   </header>
   <section id="js-article" class="p-article__body">
+    <div class="intro__meta">
     <ul>
-      Test
-
         {{ with .Params.Release }}
           <li>Original Release: {{ . }}</li>
         {{ end }}
@@ -37,8 +36,8 @@
         {{ with .Params.Alternative_Titles }}
           <li>Alternative Title(s): {{ delimit . ", "}}</li>
         {{ end }}
-
     </ul>
+    </div>
     {{ .Content }}
     <div>
       {{ range .Params.tags }}
