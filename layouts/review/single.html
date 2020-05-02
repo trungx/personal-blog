@@ -17,7 +17,7 @@
   </header>
   <section id="js-article" class="p-article__body">
     <ul>
-  <!--  {{ with .Params }} -->
+   {{ with .Params }}
         {{ with .Release }}
           <li>Original Release: {{ . }}</li>
         {{ end }}
@@ -36,7 +36,7 @@
         {{ with .Alternative_Titles }}
           <li>Alternative Title(s): {{ delimit . ", "}}</li>
         {{ end }}
-<!--    {{ end }} -->
+    {{ end }}
     </ul>
     {{ .Content }}
     <div>
